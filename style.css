@@ -1,0 +1,73 @@
+body{
+    display: grid;
+    justify-content: center;
+    
+}
+
+form{
+    border: 2px solid black;
+    padding:30px;   
+    width:1000px;
+    margin-left: 20px;
+    border-radius: 20px;
+    
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 950px;
+    height: 40px;
+    font-size: medium;
+    display: flex;
+    border-radius:10px;
+   
+}
+
+
+label{
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+.image-container {
+    width: 1000px; /* Set the width of the container */
+    height: 200px; /* Set the height of the container */
+}
+
+.image-container img {
+    width: 200px; /* Make the image fill the container horizontally */
+    height: 90%; /* Make the image fill the container vertically */
+    object-fit: cover;}
+
+    .college{
+
+        float:right;
+        margin-right:30px;
+        margin-top:50px;
+        font-size:25px ;
+        
+    }
+
+    .button-container {
+        text-align: center; /* Center the content horizontally */
+    }
+    
+    .button-container input[type="submit"] {
+        background-color:maroon; /* Set background color */
+        color: #fff; /* Set text color */
+        padding: 10px 20px; /* Add padding */
+        border: none; /* Remove border */
+        cursor: pointer; /* Change cursor to pointer on hover */
+        transition: background-color 2.3s ease, border-radius 0.5s ease; /* Add smooth transition effect */
+    }
+
+    .button-container input[type="submit"]:hover {
+        background-color: brown; /* Change background color on hover */
+        border-radius: 20px; /* Add border radius */
+    }
+
+    .button-container input[type="text"]{
+        transition: background-color 0.3s ease, border-radius 0.3s ease; /* Add smooth transition effect for background color and border radius */
+    }
